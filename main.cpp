@@ -33,10 +33,10 @@ int main()
     Coda<int> coda;
 
     // Aggiungi alcuni elementi alla coda
-    coda.enqueue(10);
-    coda.enqueue(20);
-    coda.enqueue(30);
-    coda.enqueue(40);
+    coda.enqueue(35);
+    coda.enqueue(26);
+    coda.enqueue(11);
+    coda.enqueue(3);
 
     // Visualizza la dimensione della coda
     coda.size();  // La dimensione dovrebbe essere 4
