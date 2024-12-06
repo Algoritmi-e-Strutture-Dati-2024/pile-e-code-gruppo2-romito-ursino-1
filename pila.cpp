@@ -52,7 +52,7 @@ class Pila {
     }
 
     // Restituisce il numero di elementi nella pila.
-    int size()
+    void size()
     {
       std::cout << "il numeri degli elementi della pila è: " << lung << std::endl;
     }
