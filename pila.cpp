@@ -11,7 +11,7 @@ class Pila {
     // Costruttore
     Pila() {
         lung = 0;
-    }
+    };
 
     // Aggiunge un elemento alla pila
     void push(T elem) {
