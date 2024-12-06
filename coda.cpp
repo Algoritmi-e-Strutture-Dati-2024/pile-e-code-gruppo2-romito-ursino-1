@@ -43,7 +43,7 @@ class Coda {
     }
 
     // Restituisce true se la pila è vuota, altrimenti false
-    isEmpty()
+    bool isEmpty()
     {
       if (lung == 0)
       return true;
@@ -52,7 +52,7 @@ class Coda {
     }
 
     // Restituisce il numero di elementi nella pila.
-    size()
+    int size()
     {
       std::cout << "il numeri degli elementi della pila è: " << lung << std::endl;
     }
