@@ -2,14 +2,14 @@
 
 // Definizione della classe Pila come template
 template <typename T>
-class Coda {
+class Pila {
   private:
     T elementi[100];  // Array per gli elementi della pila
     int lung;         // Contatore degli elementi nella pila
 
   public:
     // Costruttore
-    Coda() {
+    Pila() {
         lung = 0;
     }
 
